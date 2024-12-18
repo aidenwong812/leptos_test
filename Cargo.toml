@@ -1,0 +1,8 @@
+[package]
+name = "leptos-test-csr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+charming = { version = "0.4.0", features = ["wasm"] }
+leptos = { version = "0.7.1", features = ["csr"] }
